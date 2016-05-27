@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+.whole{
+	border: 2px solid black;
+	height:100%;
+}
+.header{
+	border: 2px solid lightgreen;
+	height:20%;
+	text-align:center;
+}
+.nav{
+	border: 2px solid red;
+	width:100%;
+	height:10%;
+	display:inline-flex;
+}
+.nav_left{
+	display:inline-flex;
+	width:80%; 
+}
+.nav_left p{
+	padding-left:10px;
+}
+.nav_right{
+	display:inline-flex;
+	width:20%;
+	text-align:right;
+}
+.nav_right p{
+	margin-right:10px;
+}
+.section{
+	border: 2px solid blue;
+	display:inline-flex;
+	width:100%;
+	height:60%
+}
+.aside{
+	border: 2px solid green;
+	width:20%;
+	text-align:center;
+	padding-top:100px;
+}
+.aside button{
+	margin-bottom:10px;
+}
+.content{
+	border: 2px solid yellow;
+	width:80%;
+	text-align:center;
+}
+.content table{
+	margin-bottom:50px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+
+}
+.even{
+	background-color:Cornsilk; 
+}
+.odd{
+	background-color:FloralWhite; 
+}
+.content td, tr{
+	padding:5px;
+}
+.footer{
+	border: 2px solid purple;
+	height:10%;
+	text-align:center;
+}
